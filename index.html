@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigace">
+        <div>
+          <img class="logo" src="images/ministry-safe.png" alt="" />
+        </div>
+        <ul class="menu">
+          <li><a href="#"> HOME</a></li>
+          <li><a href="#"> O nás</a></li>
+          <li class="eshop"><a href="#"> E-shop</a></li>
+          <li><a href="#"> Podmínky</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </nav>
+    </header>
+  </body>
+  <section class="relative">
+    <ul class="seznam hidden">
+      <button class="close-seznam">&times;</button>
+      <li><a href="#">Bambusové tampónky</a></li>
+      <li><a href="#">Přenosné nádobky</a></li>
+      <li><a href="#">Bio kuchyně</a></li>
+      <li><a href="#">Eko cestování</a></li>
+    </ul>
+    <div class="overlay hidden"></div>
+  </section>
+  <form class="form">
+    <label for="email"
+      >Email <br />
+      <input type="email" name="email" id="email" placeholder="Email" /> </label
+    ><br />
+    <label for="password">
+      Heslo <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Heslo"
+      /> </label
+    ><br />
+    <label for="adress">
+      Datum <br />
+      <input type="date" name="adress" id="adress" />
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</html>
